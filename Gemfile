@@ -14,6 +14,7 @@ group :assets do
   gem 'sass-rails',   '~> 3.1.5'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
+  gem 'less-rails-bootstrap'
 end
 
 gem 'jquery-rails'
@@ -26,6 +27,8 @@ group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc8'
+  gem 'autotest'
+  gem 'autotest-notification'
 end
 
 # To use ActiveModel has_secure_password
